@@ -4,9 +4,9 @@
 ## Vision
 No matter what your background, most people in the United States have interacted with Cognitive Systems whether they know it or not. Most mobile phone users have experience asking for assistance from such technologies as Google, Apple SIRI, and Alexa. Others may be familiar with technologies such as IBM Watson 
 
-The premise is that each person has their own unique experiences and that you don’t have to be an expert in AI or cognitive science, identify areas where applications can be used to provide human-like abilities using such technologies as Amazon Alexa, and Apple SIRI to name a few. 
+The premise is that each person has their own unique experiences and that you don’t have to be an expert in AI or cognitive science to come up with new and interesting applications that can provide human-like abilities using such technologies as Amazon Alexa, and Apple SIRI to name a few. 
 
-The general plan for the workshop is a brief overview of machine learning and AI followed by some practice with tools and packages developed by Intel that aid in the development and implementation of these algorithms. A more detailed plan will be developed and distributed (if interest is high enough).
+The general plan for the workshop is to spend 2 to 3 weeks learning and creating simple apps to help better understand these technologies. Using some free tools and training we will implement a couple examples and publish what we have learned.  
 
 ### Workshop Outline
 The workshop will focus on three key areas:
