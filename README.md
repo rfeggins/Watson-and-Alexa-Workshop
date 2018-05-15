@@ -20,14 +20,14 @@ The workshop will focus on three key areas:
 The long-term goals are to promote work that incorporates insights from human cognition to suggest novel business ideas, create new and interesting applications and improved AI architectures.
 
 ## Prerequisites
-An Amazon Developer account. (https://developer.amazon.com/) This is required to create and configure Alexa skills.
+[An Amazon Developer account.] (https://developer.amazon.com/) This is required to create and configure Alexa skills.
 
 ### Complete the following basic training:
-CodeAcademy: Learn Alexa (https://www.codecademy.com/learn/learn-alexa) - Learn how to build an Alexa Skill from within your browser with this beginner friendly tutorial on CodeAcademy!
+* [CodeAcademy: Learn Alexa](https://www.codecademy.com/learn/learn-alexa) - Learn how to build an Alexa Skill from within your browser with this beginner friendly tutorial on CodeAcademy!
 
-### [Developing Your First Skill](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/wiki/Developing-Your-First-Skill)
+* [Developing Your First Skill](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/wiki/Developing-Your-First-Skill)
 Walks through step-by-step instructions for building the Hello World sample.
 
 ## Documentation
-Official Alexa Skills Kit Node.js SDK (https://www.npmjs.com/package/alexa-sdk) - The Official Node.js SDK Documentation
-Official Alexa Skills Kit Documentation (https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html )  - Official Alexa Skills Kit Documentation
+* [Official Alexa Skills Kit Node.js SDK](https://www.npmjs.com/package/alexa-sdk) - The Official Node.js SDK Documentation
+* [Official Alexa Skills Kit Documentation](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html )  - Official Alexa Skills Kit Documentation
