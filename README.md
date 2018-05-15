@@ -22,8 +22,12 @@ The long-term goals are to promote work that incorporates insights from human co
 ## Prerequisites
 [An Amazon Developer account.] (https://developer.amazon.com/) This is required to create and configure Alexa skills.
 
+
+Workshop 
 ### Complete the following basic training:
 * [CodeAcademy: Learn Alexa](https://www.codecademy.com/learn/learn-alexa) - Learn how to build an Alexa Skill from within your browser with this beginner friendly tutorial on CodeAcademy!
+
+* [Design for Voice](https://developer.amazon.com/designing-for-voice/)
 
 * [Developing Your First Skill](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/wiki/Developing-Your-First-Skill)
 Walks through step-by-step instructions for building the Hello World sample.
