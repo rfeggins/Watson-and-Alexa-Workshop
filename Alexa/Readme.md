@@ -23,6 +23,13 @@ Log in using this link to sign up, https://aws.amazon.com/
 ### AWS Lambda Setup
 If you don’t have an AWS account using this link to sign up, https://aws.amazon.com/ 
 1.	Select the “Create an AWS Account” or “Create a Free Account”
+    <img src="../aws-1-mainpage.jpeg" />
+    
+2. 
+
+
+3. 
+
 
 
 ### References
