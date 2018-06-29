@@ -8,7 +8,7 @@ As teams move toward continuous integration (CI) / continuous delivery (CD), tes
 
 In this post we will provide an overview of test automation concepts, practices and tools.
 
-## Test Automation Basics
+## Testing Basics
 Here are several items that should be considered in order to get this quick feedback as part of the development of new features. The automated test cases should be
 1.	Executed continuously as part of the both the CI and CD deployment cycles to reduce the possibilities that test resources waste time with test unstable builds 
 2.	Fast providing rapid test results that can be used to make quick course corrections to the upcoming code changes
@@ -51,3 +51,33 @@ End-to-End Regression Pack, which tests the whole application as a whole. The ai
 ### End-to-End testing
 The End-to-End tests are not meant to test all of the functionalities as those are already tested in the functional regression packs, however, these tests are “light-weight” which just check the transitions from one state to another and a handful of the most important scenarios or user journeys.
 These tests are mainly executed through the GUI, as they are checking how users would use the system. The time taken to execute these can vary from one application to another but they are usually run once a day or night.
+
+# Test Automation for Multiple Agile Teams
+
+## Test Automation starts at the unit level. 
+ 
+# Role / Persona involved: Developers
+
+### Testing Practices
+Here are some key testing practices
+- Unit tests should be written by developers for any new feature that is developed. These Unit Tests form the foundation of a larger automation practice that spans all the way up to the System GUI Tests.
+-  It is the responsibility of the developers to ensure that for every new feature that is developed, a set of coherent and solid Unit Tests are written to prove that the code works as intended and meets the requirements.
+- Unit Tests provide the most ROI to the team as they are very quick to run, easy to maintain and modify (as there are no dependencies) and when there are errors in code, it is quickly fed back to the developer.
+- Unit tests are run on the developer’s machine as well as the CI environment.
+### Testing tools
+
+## Automating Integration / API or Service Tests
+While Unit Tests are based on testing the functions within a class, Integration Tests form the next level up from Unit Tests to test the classes that collectively make up the component to deliver a piece of functionality. These tests are executed only when the Unit Tests have run and passed.
+Service Tests are naturally run at API layer without the intervention of the GUI web interface; hence tests would be able to verify functionality in a pure form and because the tests talk directly to the components, they are fast to execute and will be part of the build.
+Where necessary, mocks such as wiremock will be used to factor out the dependence of other 3rd party systems and when the downstream systems are not available to provide the data required for testing.
+Integration Tests and/or Service Tests can be run on the developer’s machine as well and be part of the build, but if they start to take a long time, then it is best to run on the CI environment.
+Tools such as SoapUI can be used for Service Tests.
+## Application Testing
+A typical e-commerce application can be split into different applications or “apps” that provide different functionalities. The concept of “App Testing” is where a group of tests that test the functionality of an App are organized together and run against the desired App. This pack will be useful in cases when a team wishes to release an individual App and would like to know whether it is functioning correctly.
+Application Tests typically require an interface to interact with the different components, therefore it is anticipated that these tests are run via a browser on the GUI.
+The purpose of App Testing is to ensure that features of the application are functionally correct. Because the tests are organized in a manner to provide confidence in the health of a particular app, these tests are normally referred to as Vertical Tests, since they execute “down” a particular app. The tests are very thorough and coverage is large.
+Selenium WebDriver could be used to run these automated tests against the browser. This tool is the most popular for browser automation tests and provides a rich API to allow for complex verifications.
+
+## End-to-End Scenario Tests
+The GUI automated tests which are run against the system, serve as typical user flows, journeys or end-to-end scenarios. Due to issues with this type of tests (discussed below), these will be kept to a minimum. The end-to-end scenarios are included in the nightly regression pack.
+
