@@ -4,6 +4,15 @@ At a minimum, your automation strategy must ensure that any newly developed feat
 
 As teams move toward continuous integration (CI) / continuous delivery (CD), test automation becomes a core activity used to provide teams with the rapid feedback loop required for the development teams to better understand the health of the application under development.
 
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| Github | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+
 In this post we will provide an overview of test automation concepts, practices and tools.
 
 ## Testing Basics
