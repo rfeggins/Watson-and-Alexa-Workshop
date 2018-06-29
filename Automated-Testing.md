@@ -1,6 +1,4 @@
 # Test Automation Strategy for Agile Projects
-
-## Executive Summary 
 In today’s competitive climate with app being measured not only by their capabilities but also their social score, it’s often better to release one “rock solid” feature rather than several poor quality or poor performing features.
 At a minimum, your automation strategy must ensure that any newly developed features don’t introduce any regression defects, so automating regression testing is the first order of business.
 
@@ -23,7 +21,7 @@ Automating testing is one of the key components needed to successfully implement
 >
 > KEY POINT	Quality should be favored over quantity. 
 >
-
+## Test Approach
 The first element of any effective test automation effort is creating and automating the Unit testing performed by the developers.  Unit testing is the foundations of any test automation effort. 
 The second element of improvement is running the regression tests more frequently and aligned with the process of Continuous Integration, see later. 
 
@@ -53,10 +51,12 @@ The End-to-End tests are not meant to test all of the functionalities as those a
 These tests are mainly executed through the GUI, as they are checking how users would use the system. The time taken to execute these can vary from one application to another but they are usually run once a day or night.
 
 # Test Automation for Multiple Agile Teams
+Test Automation starts at the unit level. 
 
-## Test Automation starts at the unit level. 
- 
-# Role / Persona involved: Developers
+## Automating Unit Testing
+
+### Role / Persona involved
+Developers
 
 ### Testing Practices
 Here are some key testing practices
@@ -64,14 +64,18 @@ Here are some key testing practices
 -  It is the responsibility of the developers to ensure that for every new feature that is developed, a set of coherent and solid Unit Tests are written to prove that the code works as intended and meets the requirements.
 - Unit Tests provide the most ROI to the team as they are very quick to run, easy to maintain and modify (as there are no dependencies) and when there are errors in code, it is quickly fed back to the developer.
 - Unit tests are run on the developer’s machine as well as the CI environment.
+
 ### Testing tools
 
 ## Automating Integration / API or Service Tests
 While Unit Tests are based on testing the functions within a class, Integration Tests form the next level up from Unit Tests to test the classes that collectively make up the component to deliver a piece of functionality. These tests are executed only when the Unit Tests have run and passed.
+
+### Practices
 Service Tests are naturally run at API layer without the intervention of the GUI web interface; hence tests would be able to verify functionality in a pure form and because the tests talk directly to the components, they are fast to execute and will be part of the build.
 Where necessary, mocks such as wiremock will be used to factor out the dependence of other 3rd party systems and when the downstream systems are not available to provide the data required for testing.
 Integration Tests and/or Service Tests can be run on the developer’s machine as well and be part of the build, but if they start to take a long time, then it is best to run on the CI environment.
 Tools such as SoapUI can be used for Service Tests.
+### Testing Tools
 ## Application Testing
 A typical e-commerce application can be split into different applications or “apps” that provide different functionalities. The concept of “App Testing” is where a group of tests that test the functionality of an App are organized together and run against the desired App. This pack will be useful in cases when a team wishes to release an individual App and would like to know whether it is functioning correctly.
 Application Tests typically require an interface to interact with the different components, therefore it is anticipated that these tests are run via a browser on the GUI.
@@ -80,4 +84,8 @@ Selenium WebDriver could be used to run these automated tests against the browse
 
 ## End-to-End Scenario Tests
 The GUI automated tests which are run against the system, serve as typical user flows, journeys or end-to-end scenarios. Due to issues with this type of tests (discussed below), these will be kept to a minimum. The end-to-end scenarios are included in the nightly regression pack.
+
+### Practices
+
+### Testing
 
