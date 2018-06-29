@@ -53,10 +53,36 @@ These tests are mainly executed through the GUI, as they are checking how users 
 # Test Automation for Multiple Agile Teams
 Test Automation starts at the unit level. 
 
-## Automating Unit Testing
+
+## Key roles
+- Stakeholders and Product Owners(https://www.mountaingoatsoftware.com/agile/scrum/roles/product-owner) evaluate new site feature ideas
+- Business Analysts Information architects develop informed wireframes, interface behaviors, and labeling
+- UX Designers create the overall look and feel of the website
+- Developers decide which approaches to take based on user behaviors. They write, test and help deliver the code 
+- Testers - validate that content is written to the appropriate audiences
+
+
+
+## Getting Started with Personas
+Many software development teams us "Personas" to provide a realistic representations of potential end users of the software.   Personas development belongs at the beginning of the project, as personas can inform site functionality, help uncover gaps, or highlight new opportunities.
+
+> Personas help teams to focus their decisions by adding a layer of real-world consideration to their conversation. 
+> They also offer a quick and inexpensive way to test and prioritize those features throughout the development process. 
+
+An effective personas:
+
+- Represent a major user group for your website
+- Express and focus on the major needs and expectations of the most important user groups
+- Give a clear picture of the user's expectations and how they're likely to use the site
+- Aid in uncovering universal features and functionality
+- Describe real people with backgrounds, goals, and values
+
+For more information on personas(https://www.usability.gov/how-to-and-tools/methods/personas.html)
 
 ### Role / Persona involved
 Developers
+Per
+https://www.usability.gov/how-to-and-tools/methods/personas.html
 
 ### Testing Practices
 Here are some key testing practices
@@ -65,7 +91,15 @@ Here are some key testing practices
 - Unit Tests provide the most ROI to the team as they are very quick to run, easy to maintain and modify (as there are no dependencies) and when there are errors in code, it is quickly fed back to the developer.
 - Unit tests are run on the developer’s machine as well as the CI environment.
 
-### Testing tools
+### Tools
+Software developers uses a number of open source projects to get their work done, such as
+* [AngularJS] - HTML enhanced for web apps!
+* [markdown-it] - Markdown parser done right. Fast and easy to extend.
+* [Twitter Bootstrap] - great UI boilerplate for modern web apps
+* [node.js] - evented I/O for the backend
+* [Express] - fast node.js network app framework [@tjholowaychuk]
+* [Gulp] - the streaming build system
+* [jQuery] - duh
 
 ## Automating Integration / API or Service Tests
 While Unit Tests are based on testing the functions within a class, Integration Tests form the next level up from Unit Tests to test the classes that collectively make up the component to deliver a piece of functionality. These tests are executed only when the Unit Tests have run and passed.
