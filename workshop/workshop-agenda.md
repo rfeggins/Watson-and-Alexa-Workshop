@@ -10,7 +10,7 @@ This workshop will give you the roadmap you need to make your release process a 
 
 In doing so, we will show you how these tools can be used to makes your job as a Product Owner, Business Analyst, Software engineer and Tester easier.  
 
-## Week 1 Objectives
+## [Week 1 Objectives](Week1/week1.md)
 - Hands on Demo - Create and deploy a simple application using open source tools (free) and push it to a cloud environment (IBM, AWS)
 - Kickoff IBM Cloud Garage Mini BootCamp
   -- Developing Code 101
