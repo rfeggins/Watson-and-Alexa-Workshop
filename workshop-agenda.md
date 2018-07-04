@@ -2,8 +2,9 @@
 In this 3-4 week instructor-led workshop we walk you through the technical practices, necessary design, develop and deploy a customized Nodejs application.
 
 Students will learn through a combination hands-on labs, class demos, class participation exercises, video tutorials and traditional slides and lecture.  The workshop is highly interactive but will be conducted remotely using collaboration tools encouraging individuals to fully participate in all exercises to retain maximum benefits of the learning.  
-
-The technologies and tools used in this class include: NodeJS, Java, NoSQL.
+>
+> The technologies and tools used in this class include: NodeJS, Java, NoSQL.
+>
 
 This workshop will give you the roadmap you need to make your release process a business advantage instead of a limitation to meeting business goals.  Using a combination of tools such as: VisualCode, Git, Jenkins, Maven, and NPM we will teach you coding world with their social coding approach. 
 
